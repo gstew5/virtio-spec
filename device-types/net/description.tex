@@ -487,8 +487,8 @@ specifically in the protocol.}.
 
 \item \field{num_buffers} is set to zero.  This field is unused on transmitted packets.
 
-\item The header and packet are added as one output descriptor to the
-  transmitq, and the device is notified of the new entry
+\item The header and packet output descriptors are added as one buffer to
+  the transmitq, and the device is notified of the new entry
   (see \ref{sec:Device Types / Network Device / Device Initialization}~\nameref{sec:Device Types / Network Device / Device Initialization}).
 \end{enumerate}
 
